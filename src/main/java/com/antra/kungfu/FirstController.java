@@ -10,6 +10,6 @@ public class FirstController {
     //*
     @GetMapping("/")
     public ResponseEntity<Object> getFirst() {
-        return new ResponseEntity<Object>("Freedom Now!", HttpStatus.OK);
+        return new ResponseEntity<Object>("Freedom Now!!", HttpStatus.OK);
     }
 }
