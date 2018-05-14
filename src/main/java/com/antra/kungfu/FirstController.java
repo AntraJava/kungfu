@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class FirstController {
     @GetMapping("/")
     public ResponseEntity<Object> getFirst() {
-        return new ResponseEntity<Object>("Freedom 1234", HttpStatus.OK);
+        return new ResponseEntity<Object>("Freedom Now!", HttpStatus.OK);
     }
 }
